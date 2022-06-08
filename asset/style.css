@@ -22,7 +22,7 @@
     padding-left: 50px;
 }
 
-.text-logo {
+.text-logo strong {
     font-size: 18px;
     font-weight: 900;
     letter-spacing: 2px;
@@ -366,21 +366,23 @@
 
     .logo {
         float: left;
-        padding-left: 10px;
+        padding-left: 30px;
     }
     
-    .text-logo {
+    .text-logo strong {
         font-size: 14px;
         font-weight: 900;
         letter-spacing: 2px;
         line-height: 70px;
         color: white;
+        display: none;
     }
     
     .text-logo span {
-        color: yellow;
+        color: #F8CB2E;
         padding-right: 5px;
-        font-size: 21px;
+        font-size: 30px;
+        line-height: 70px;
     }
 
     .menu {
@@ -392,7 +394,7 @@
     }
 
     .menu li a {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .about-left img {
